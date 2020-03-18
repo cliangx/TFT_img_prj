@@ -10,7 +10,7 @@
 >
 > 480*272 分辨率显示扫描示意图：
 >
-> ![](https://github.com/cliangx/480_272.png)
+> ![](https://github.com/cliangx/TFT_img_prj/480_272.png)
 
 ## 03. RGB 接口 TFT 屏驱动设计
 
@@ -18,7 +18,7 @@
 
 ### 3.1 TFT 屏驱动模块接口信息
 
-<img src="https://github.com/cliangx/TFT驱动模块接口.png"  />
+<img src="https://github.com/cliangx/TFT_img_prj/TFT驱动模块接口.png"  />
 
 | port   | IO     | description |
 | :----: | :----: | :----: |
@@ -199,13 +199,13 @@ assign data_in = img_act?img_data:16'd0;
 
 > 源文件`tft_img_top.v`
 >
-> ![](https://github.com/cliangx/top.png)
+> ![](https://github.com/cliangx/TFT_img_prj/top.png)
 
 ## 07. 成果
 
 > 编译，综合，分配引脚，生成 sof 文件，下载至开发板上看到以下现象：
 >
-> ![](https://github.com/cliangx/dog.gif)
+> ![](https://github.com/cliangx/TFT_img_prj/dog.gif)
 
 
 
